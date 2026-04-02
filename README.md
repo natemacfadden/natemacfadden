@@ -15,4 +15,4 @@ Ph.D. candidate at Cornell University in computational string theory.
 - **[regfans](https://github.com/natemacfadden/regfans)** — Python package for regular triangulations of integral vector configurations, associated with [Calabi-Yau Threefolds from Vex Triangulations](https://arxiv.org/abs/2512.14817).
 - **[fanroots](https://github.com/natemacfadden/fanroots)** *(WIP)* - Optimization library for finding roots of vector-valued functions defined over the secondary fan of point/vector configurations.
 - **[conevecs](https://github.com/natemacfadden/conevecs)** — C/Cython implementation of Kannan's lattice point enumeration algorithm, outperforming OR-Tools and Normaliz for relevant use-cases.
-- **[pfvs](https://github.com/natemacfadden/pfvs)** *(WIP)* — generates PFVs and coni-PFVs orders of magnitude faster than previous methods, with significantly better scaling.
+- **[pfvs](https://github.com/natemacfadden/pfvs)** *(WIP)* — C/Cython algorithm (with some Python prep) for generating (coni-)PFVs orders of magnitude faster than previous methods, with significantly better scaling.
