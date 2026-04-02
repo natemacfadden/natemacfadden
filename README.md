@@ -5,7 +5,7 @@ Ph.D. candidate at Cornell University in computational string theory.
 ## Code-Related Work
 
 - **[CYTools](https://github.com/LiamMcAllisterGroup/cytools)** — BDFL of the standard toolkit for studying Batyrevian CY compactifications in string theory. Contributions include:
-  1. the [NTFE algorithm](https://arxiv.org/abs/2309.10855) with exponentially better scaling than previous methods, with bounds on the number of NTFEs established in [this work](https://arxiv.org/abs/2602.16909),
+  1. my [NTFE algorithm](https://arxiv.org/abs/2309.10855) with exponentially better scaling than previous methods, with bounds on the number of NTFEs established in [this work](https://arxiv.org/abs/2602.16909),
   2. a generalization to vex triangulations via regfans (see next major item), and
   3. a significantly faster intersection number kernel.
 - **[regfans](https://github.com/natemacfadden/regfans)** — Python package for regular triangulations of integral vector configurations, associated with [Calabi-Yau Threefolds from Vex Triangulations](https://arxiv.org/abs/2512.14817).
