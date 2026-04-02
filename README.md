@@ -2,6 +2,10 @@
 
 Ph.D. candidate at Cornell University in computational string theory.
 
+## Research
+
+- **[The DNA of Calabi-Yau Hypersurfaces](https://arxiv.org/abs/2405.08871)** — Applied genetic algorithms to combinatorial optimization over triangulations of 4D reflexive polytopes, substantially outperforming MCMC and simulated annealing on a search space with ~500M candidates. Applies to all 4D reflexive polytopes in the Kreuzer-Skarke database. This work demonstrates that encoding triangulations via their 2-face restrictions — the core insight of the [NTFE algorithm](https://arxiv.org/abs/2309.10855) — yields a structure amenable to ML optimization.
+
 ## Code-Related Work
 
 - **[CYTools](https://github.com/LiamMcAllisterGroup/cytools)** — BDFL of the standard toolkit for studying Batyrevian CY compactifications in string theory. Contributions include:
