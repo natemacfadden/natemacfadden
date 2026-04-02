@@ -2,7 +2,7 @@
 
 Ph.D. candidate at Cornell University in computational string theory.
 
-## Work
+## Code-Related Work
 
 - **[CYTools](https://github.com/LiamMcAllisterGroup/cytools)** — BDFL of the standard toolkit for studying Batyrevian CY compactifications in string theory. Contributions include:
   1. an [NTFE algorithm](https://arxiv.org/abs/2309.10855) with exponentially better scaling than previous methods, with bounds on the number of NTFEs established in [this work](https://arxiv.org/abs/2602.16909),
