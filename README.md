@@ -9,7 +9,7 @@ Ph.D. candidate at Cornell specializing in computational geometry and high-perfo
 ## Software & Algorithms
 
 - **[NTFE algorithm](https://arxiv.org/abs/2309.10855)** — Simple algorithm for generating regular triangulations of reflexive polytopes with distinct 2-face restrictions — necessary for constructing distinct Calabi-Yau hypersurfaces — with exponentially better scaling than previous methods; bounds on NTFE counts established in [this work](https://arxiv.org/abs/2602.16909). Implemented in [CYTools](https://github.com/LiamMcAllisterGroup/cytools).
-- **[CYTools](https://github.com/LiamMcAllisterGroup/cytools)** — BDFL of the standard toolkit for studying Batyrevian CY compactifications in string theory. Contributions include:
+- **[CYTools](https://github.com/LiamMcAllisterGroup/cytools)** — BDFL of the standard toolkit for studying Batyrevian CY compactifications in string theory. Major contributions include:
   1. a generalization to vex triangulations via `regfans`, and
   2. a significantly faster intersection number kernel (see `fanroots` for an application of this).
 - **[latticepts](https://github.com/natemacfadden/latticepts)** — High-performance C/Cython implementation of Kannan's lattice point enumeration algorithm for general polyhedra. Outperforms Normaliz by ~8x in raw speed and continues enumerating 75M+ lattice points where Normaliz and OR-Tools CP-SAT both time out.
