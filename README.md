@@ -15,7 +15,7 @@ Ph.D. candidate at Cornell. I work on computational geometry (such as regular tr
 
 ## Software & Algorithms
 
-- **[NTFE algorithm](https://arxiv.org/abs/2309.10855)** — Simple algorithm for generating regular triangulations of reflexive polytopes with distinct 2-face restrictions — necessary for constructing distinct Calabi-Yau hypersurfaces — with exponentially better scaling than previous methods; bounds on NTFE counts established in [this work](https://arxiv.org/abs/2602.16909). Implemented in [CYTools](https://github.com/LiamMcAllisterGroup/cytools).
+- **[NTFE algorithm](https://arxiv.org/abs/2309.10855)** — Simple algorithm for generating regular triangulations of reflexive polytopes with distinct 2-face restrictions with exponentially better scaling than previous methods. Such triangulations lead to potentially-inequivalent Calabi-Yau manifolds. Bounds on NTFE counts established in [this work](https://arxiv.org/abs/2602.16909). This algorithm is implemented in [CYTools](https://github.com/LiamMcAllisterGroup/cytools).
 - **[CYTools](https://github.com/LiamMcAllisterGroup/cytools)** — Lead developer and maintainer of the standard toolkit for studying Batyrevian CY compactifications in string theory. Major contributions include:
   1. a generalization to vex triangulations via `regfans`, and
   2. a significantly faster intersection number kernel (see `fanroots` for an application of this).
