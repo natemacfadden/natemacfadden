@@ -4,7 +4,7 @@ Ph.D. candidate at Cornell specializing in computational geometry and high-perfo
 
 ## ML Research
 
-- **[The DNA of Calabi-Yau Hypersurfaces](https://arxiv.org/abs/2405.08871)** — Applied genetic algorithms to the problem of generating Calabi-Yau hypersurfaces via regular triangulations of 4D reflexive polytopes (search spaces up to ~500M candidates), demonstrating that [the NTFE encoding (2-face restrictions)](https://arxiv.org/abs/2309.10855) yields a structure amenable to multiple optimization methods. In particular, the GA significantly outperformed MCMC and simulated annealing.
+- **[The DNA of Calabi-Yau Hypersurfaces](https://arxiv.org/abs/2405.08871)** — Applied genetic algorithms to the problem of generating Calabi-Yau hypersurfaces via regular triangulations of 4D reflexive polytopes (search spaces up to ~500M candidates), demonstrating that [the NTFE encoding (2-face restrictions)](https://arxiv.org/abs/2309.10855) yields a structure amenable to multiple optimization methods. The custom GA, in particular, outperformed MCMC and simulated annealing, all using the same encoding.
 
 ## Software & Algorithms
 
