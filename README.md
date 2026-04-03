@@ -4,11 +4,11 @@ Ph.D. candidate at Cornell specializing in computational geometry and high-perfo
 
 ## ML Research
 
-- **[The DNA of Calabi-Yau Hypersurfaces](https://arxiv.org/abs/2405.08871)** — Applied genetic algorithms to optimization over triangulations of 4D reflexive polytopes (search spaces up to ~500M candidates), demonstrating that [the NTFE encoding (2-face restrictions)](https://arxiv.org/abs/2309.10855) yields a structure amenable to multiple optimization methods. In particular, the GA significantly outperformed MCMC and simulated annealing.
+- **[The DNA of Calabi-Yau Hypersurfaces](https://arxiv.org/abs/2405.08871)** — Applied genetic algorithms to the problem of generating Calabi-Yau hypersurfaces via triangulations of 4D reflexive polytopes (search spaces up to ~500M candidates), demonstrating that [the NTFE encoding (2-face restrictions)](https://arxiv.org/abs/2309.10855) yields a structure amenable to multiple optimization methods. In particular, the GA significantly outperformed MCMC and simulated annealing.
 
 ## Software & Algorithms
 
-- **[NTFE algorithm](https://arxiv.org/abs/2309.10855)** — Simple algorithm for triangulating reflexive polytopes with exponentially better scaling than previous methods; bounds on NTFE counts established in [this work](https://arxiv.org/abs/2602.16909). Implemented in [CYTools](https://github.com/LiamMcAllisterGroup/cytools).
+- **[NTFE algorithm](https://arxiv.org/abs/2309.10855)** — Simple algorithm for generating regular triangulations of reflexive polytopes with distinct 2-face restrictions — necessary for constructing distinct Calabi-Yau hypersurfaces — with exponentially better scaling than previous methods; bounds on NTFE counts established in [this work](https://arxiv.org/abs/2602.16909). Implemented in [CYTools](https://github.com/LiamMcAllisterGroup/cytools).
 - **[CYTools](https://github.com/LiamMcAllisterGroup/cytools)** — BDFL of the standard toolkit for studying Batyrevian CY compactifications in string theory. Contributions include:
   1. a generalization to vex triangulations via `regfans`, and
   2. a significantly faster intersection number kernel (see `fanroots` for an application of this).
