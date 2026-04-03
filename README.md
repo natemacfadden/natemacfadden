@@ -23,7 +23,7 @@ Ph.D. candidate at Cornell. I work on computational geometry (such as regular tr
 - **[regfans](https://github.com/natemacfadden/regfans)** — Python package for regular triangulations of integral vector configurations, associated with [Calabi-Yau Threefolds from Vex Triangulations](https://arxiv.org/abs/2512.14817).
 - **[fanroots](https://github.com/natemacfadden/fanroots)** — Optimization library for finding roots of vector-valued functions defined over the secondary fan of point/vector configurations, designed for optimization tasks such as those occuring in [Candidate de Sitter Vacua](https://arxiv.org/abs/2406.13751).
 - **[pfvs](https://github.com/natemacfadden/pfvs)** *(coming soon... when the rest of the paper is ready)* — C/Cython algorithm (with some Python prep) for generating (coni-)PFVs orders of magnitude faster than previous methods, with significantly better scaling.
-- **[FastAerosol](https://geant4.web.cern.ch/docs/advanced_examples_doc/example_fastaerosol)** — C++ advanced example contributed to GEANT4 for stochastic simulation of aerosol geometries via voxelized droplet placement, with attention to time and memory efficiency. Associated with [this paper](https://www.sciencedirect.com/science/article/pii/S0010465522001023).
+- **[FastAerosol](https://geant4.web.cern.ch/docs/advanced_examples_doc/example_fastaerosol)** — C++ 'advanced example' contributed to GEANT4 for stochastic simulation of particle transport through aerosol geometries via voxelized droplet generation, with attention to time and memory efficiency. Associated with [this paper](https://www.sciencedirect.com/science/article/pii/S0010465522001023).
 
 ## For fun
 
