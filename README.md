@@ -1,9 +1,9 @@
 # Nate MacFadden
 
-Ph.D. candidate at Cornell. I work on computational geometry (such as regular triangulations) and string compactifications, with a soft spot for problems where the right algorithm changes what's computationally possible.
+<img src="bonsai.jpg" align="right" width="160"/>
+<p align="right"><sub>See my first bonsai 'Paco'<br/>(named after one of my favorite<br/>mathematicians). I've grown quite<br/>fond of these trees — I now have<br/>4.5, including a Japanese maple,<br/>redwood, and spruce.</sub></p>
 
-<img src="bonsai.jpg" align="right" width="160"/><br/>
-<p align="right"><sub>See my first bonsai 'Paco' (named after one of my favorite mathematicians). I've grown quite fond of these trees — I now have 4.5 of them, including a Japanese maple, redwood, and spruce.</sub></p>
+Ph.D. candidate at Cornell. I work on computational geometry (such as regular triangulations) and string compactifications, with a soft spot for problems where the right algorithm changes what's computationally possible.
 
 **Languages:** C, C++, Python, Cython
 
