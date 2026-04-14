@@ -5,7 +5,7 @@
 
 Ph.D. candidate at Cornell. I work on computational geometry (regular triangulations ❤️) and string compactifications. I like efficient solutions to computational problems.
 
-**Languages:** C, C++, Python, Cython
+**Languages:** C, C++, Python
 
 <br clear="right"/>
 
