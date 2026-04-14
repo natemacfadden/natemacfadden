@@ -11,7 +11,7 @@ Ph.D. candidate at Cornell. I work on computational geometry (regular triangulat
 
 ## ML Work
 
-- **[The DNA of Calabi-Yau Hypersurfaces](https://arxiv.org/abs/2405.08871)** — Applied [the NTFE encoding (2-face restrictions)](https://arxiv.org/abs/2309.10855) to the combinatorial optimization task of generating Calabi-Yau manifolds via Batyrev's construction. Tested a range of optimization methods (genetic algorithms, best first search, simulated annealing, and MCMC) with various objective functions on search spaces up to ~500M candidates.
+- **[The DNA of Calabi-Yau Hypersurfaces](https://arxiv.org/abs/2405.08871)** — Used [the NTFE encoding (2-face restrictions)](https://arxiv.org/abs/2309.10855) to efficiently search over Calabi-Yau manifolds arising from Batyrev's construction, optimizing user-defined objective functions. Tested a range of optimization methods (genetic algorithms, best first search, simulated annealing, and MCMC) with various objective functions on search spaces up to ~500M candidates.
 
 ## Software & Algorithms
 
