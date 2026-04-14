@@ -3,7 +3,7 @@
 <img src="bonsai.jpg" align="right" width="160"/>
 <p align="right"><sub>See my first bonsai 'Paco'<br/>(named after one of my favorite<br/>mathematicians). I've grown quite<br/>fond of these trees — I now have<br/>4.5, including a Japanese maple,<br/>redwood, and spruce.</sub></p>
 
-Ph.D. candidate at Cornell. I work on computational geometry (regular triangulations ❤️) and string compactifications, with a soft spot for problems where an efficient algorithm changes what's computationally possible.
+Ph.D. candidate at Cornell. I work on computational geometry (regular triangulations ❤️) and string compactifications. I like efficient solutions to computational problems.
 
 **Languages:** C, C++, Python, Cython
 
