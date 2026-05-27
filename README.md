@@ -3,16 +3,26 @@
 <img src="bonsai.jpg" align="right" width="160"/>
 <p align="right"><sub>See my first bonsai 'Paco'<br/>(named after one of my favorite<br/>mathematicians). I've grown quite<br/>fond of these trees — I now have<br/>4-5, including a Japanese maple,<br/>redwood, and spruce.</sub></p>
 
-Ph.D. candidate at Cornell. I work on computational geometry (regular triangulations ❤️), machine learning for combinatorial problems, and string compactifications. Currently looking for ML research roles in industry. I like efficient solutions to computational problems.
+Ph.D. candidate at Cornell. I build efficient ML for hard combinatorial problems and high-performance algorithms for computational geometry (regular triangulations ❤️). Most recent work: [dualGNN](https://github.com/natemacfadden/dualGNN), a symmetry-aware GNN ~1000x smaller than prior learned baselines on a combinatorial sampling task. Lead maintainer of [CYTools](https://github.com/LiamMcAllisterGroup/cytools), the standard toolkit in my subfield.
 
-**Languages:** C, C++, Python
+Particularly interested in: efficient, symmetry-aware architectures for problems in geometry, combinatorics, and graphics. Looking for research scientist / research engineer roles in industry.
+
+**Stack:** C, C++, Cython, Python (PyTorch, NumPy, Numba)
 
 <br clear="right"/>
 
-## ML Work
+## Selected papers
 
-- **[dualGNN](https://github.com/natemacfadden/dualGNN)** - GNN architecture for uniformly sampling fine, regular triangulations. Encodes the polytope/polygon's combinatorics and regularity via its oriented matroid, enabling symmetry invariance and zero-shot generalization to other polytopes/polygons. By utilizing [the NTFE encoding (2-face restrictions)](https://arxiv.org/abs/2309.10855), the model is small (~92k parameters; ~1000x smaller than other learned models), trains quickly (~7.5hrs on my 5060Ti), and can be used to sample CYs at high Hodge numbers (tested up to $h^{1,1}=86$ and $h^{1,1}=128$; architecture runs up to the max $h^{1,1}=491$).
-- **[The DNA of Calabi-Yau Hypersurfaces](https://arxiv.org/abs/2405.08871)** — Used [the NTFE encoding (2-face restrictions)](https://arxiv.org/abs/2309.10855) for a combinatorial optimization task: search over Calabi-Yau manifolds arising from Batyrev's construction, optimizing user-defined objective functions. Tested a range of optimization methods (genetic algorithms, best first search, simulated annealing, and MCMC) with various objective functions on search spaces up to ~500M candidates. All methods proved viable, with the genetic algorithm generally outperforming the rest.
+- **Sampling Triangulations and Calabi-Yau Threefolds with Autoregressive GNNs** (2026) - Nate MacFadden. *arXiv (forthcoming)*. [[code]](https://github.com/natemacfadden/dualGNN)
+- **The DNA of Calabi-Yau Hypersurfaces: A Genetic Algorithm for Polytope Triangulations** (2025) - Nate MacFadden, Andreas Schachner, Elijah Sheridan. *Fortschritte der Physik* 73 (2025). [doi:10.1002/prop.70060](https://doi.org/10.1002/prop.70060), [arXiv:2405.08871](https://arxiv.org/abs/2405.08871)
+- **Further Bounding the Kreuzer-Skarke Landscape** (2026) - Nate MacFadden, Stepan Yu. Orevkov, Michael Stepniczka. [arXiv:2602.16909](https://arxiv.org/abs/2602.16909)
+- **Calabi-Yau Threefolds from Vex Triangulations** (2025) - Nate MacFadden, Elijah Sheridan. [arXiv:2512.14817](https://arxiv.org/abs/2512.14817)
+- **Efficient Algorithm for Generating Homotopy Inequivalent Calabi-Yaus** (2023) - Nate MacFadden. [arXiv:2309.10855](https://arxiv.org/abs/2309.10855)
+
+## Machine Learning & Optimization
+
+- **[dualGNN](https://github.com/natemacfadden/dualGNN)** — Autoregressive GNN for combinatorial sampling under a hard global constraint (triangulation regularity). Signed-circuit edge features (from oriented matroid theory) are provably necessary-and-sufficient for the constraint and yield exact symmetry invariance. Pointer-Network-style decoding, trained with cross-entropy then REINFORCE-tuned for uniformity. ~92k parameters (~1000x smaller than CYTransformer), ~7.5h on a single RTX 5060 Ti, runs unmodified on an M1 MacBook. Lowest sample bias of any method tested; zero-shot transfer across unseen problem instances. Applied to Calabi-Yau enumeration up to $h^{1,1}=128$.
+- **[The DNA of Calabi-Yau Hypersurfaces](https://doi.org/10.1002/prop.70060)** *(Fortschritte der Physik, 2025)* — Custom genetic algorithm with hyperparameters tuned by Bayesian optimization; combinatorial optimization over Calabi-Yau search spaces up to ~$10^{36}$ candidates, substantially outperforming MCMC, simulated annealing, and best-first search on both maximization and inverse problems. Built on [the NTFE encoding](https://arxiv.org/abs/2309.10855), which eliminates the search space's exponential redundancy.
 
 ## Software & Algorithms
 
@@ -28,4 +38,4 @@ Ph.D. candidate at Cornell. I work on computational geometry (regular triangulat
 
 ## For fun
 
-I put some more recreational projects in **[ntt](https://github.com/natemacfadden/ntt)**. This includes a random, fine, pushing triangulation algorithm written in C and a cute game for visualizing flips of vector configurations and the [vex triangulations](https://arxiv.org/abs/2512.14817) that these flips lead to.
+I put some more recreational projects in **[ntt (Nate's Triangulation Toys)](https://github.com/natemacfadden/ntt)**. This includes a random, fine, pushing triangulation algorithm written in C and a cute game for visualizing flips of vector configurations and the [vex triangulations](https://arxiv.org/abs/2512.14817) that these flips lead to.
