@@ -13,7 +13,7 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 
 ## Selected papers
 
-- **Sampling Triangulations and Calabi-Yau Threefolds with Autoregressive GNNs** (2026) - Nate MacFadden. *arXiv (forthcoming)*. [[code]](https://github.com/natemacfadden/dualGNN)
+- **Sampling Triangulations and Calabi-Yau Threefolds with Autoregressive GNNs** (2026) - Nate MacFadden. [arXiv:2605.27770](https://arxiv.org/abs/2605.27770). [[code]](https://github.com/natemacfadden/dualGNN)
 - **The DNA of Calabi-Yau Hypersurfaces: A Genetic Algorithm for Polytope Triangulations** (2025) - Nate MacFadden, Andreas Schachner, Elijah Sheridan. *Fortschritte der Physik* 73 (2025). [doi:10.1002/prop.70060](https://doi.org/10.1002/prop.70060), [arXiv:2405.08871](https://arxiv.org/abs/2405.08871)
 - **Further Bounding the Kreuzer-Skarke Landscape** (2026) - Nate MacFadden, Stepan Yu. Orevkov, Michael Stepniczka. [arXiv:2602.16909](https://arxiv.org/abs/2602.16909)
 - **Calabi-Yau Threefolds from Vex Triangulations** (2025) - Nate MacFadden, Elijah Sheridan. [arXiv:2512.14817](https://arxiv.org/abs/2512.14817)
