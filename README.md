@@ -5,7 +5,7 @@
 
 Ph.D. candidate at Cornell. I build efficient ML for hard combinatorial problems and high-performance algorithms for computational geometry (regular triangulations ❤️). Most recent work: [dualGNN](https://github.com/natemacfadden/dualGNN), a symmetry-aware GNN ~1000x smaller than prior learned baselines on a combinatorial sampling task. Lead maintainer of [CYTools](https://github.com/LiamMcAllisterGroup/cytools), the standard toolkit in my subfield.
 
-Particularly interested in: efficient, symmetry-aware architectures for problems in geometry, combinatorics, and graphics. Looking for research scientist / research engineer roles in industry.
+Particularly interested in: efficient, symmetry-aware architectures for problems in geometry, combinatorics(, and graphics). **Looking for research scientist / research engineer roles in industry (AI/ML).**
 
 **Stack:** C, C++, Cython, Python (PyTorch, NumPy, Numba)
 
