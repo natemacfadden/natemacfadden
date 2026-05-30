@@ -11,14 +11,6 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 
 <br clear="right"/>
 
-## Selected papers
-
-- **Sampling Triangulations and Calabi-Yau Threefolds with Autoregressive GNNs** (2026) - Nate MacFadden. [arXiv:2605.27770](https://arxiv.org/abs/2605.27770). [[code]](https://github.com/natemacfadden/dualGNN)
-- **The DNA of Calabi-Yau Hypersurfaces: A Genetic Algorithm for Polytope Triangulations** (2025) - Nate MacFadden, Andreas Schachner, Elijah Sheridan. *Fortschritte der Physik* 73 (2025). [doi:10.1002/prop.70060](https://doi.org/10.1002/prop.70060), [arXiv:2405.08871](https://arxiv.org/abs/2405.08871)
-- **Further Bounding the Kreuzer-Skarke Landscape** (2026) - Nate MacFadden, Stepan Yu. Orevkov, Michael Stepniczka. [arXiv:2602.16909](https://arxiv.org/abs/2602.16909)
-- **Calabi-Yau Threefolds from Vex Triangulations** (2025) - Nate MacFadden, Elijah Sheridan. [arXiv:2512.14817](https://arxiv.org/abs/2512.14817)
-- **Efficient Algorithm for Generating Homotopy Inequivalent Calabi-Yaus** (2023) - Nate MacFadden. [arXiv:2309.10855](https://arxiv.org/abs/2309.10855)
-
 ## Machine Learning & Optimization
 
 - **[dualGNN](https://github.com/natemacfadden/dualGNN)** — Autoregressive GNN for combinatorial sampling (of triangulations) under local (validity, fineness) and global (regularity) constraints out of a large population. Signed-circuit edge features (from oriented matroid theory) are provably necessary-and-sufficient for the constraint and yield symmetry invariance. Pointer-Network-style decoding, trained with cross-entropy then REINFORCE-tuned for uniformity. ~92k parameters (~1000x smaller than CYTransformer), ~7.5h on a single RTX 5060 Ti, runs unmodified on an M1 MacBook. Lowest sample bias of any method tested; zero-shot transfer across unseen problem instances. Applied to Calabi-Yau enumeration up to $h^{1,1}=128$.
@@ -35,6 +27,12 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 - **[regfans](https://github.com/natemacfadden/regfans)** — Python package for regular triangulations of integral vector configurations, associated with [Calabi-Yau Threefolds from Vex Triangulations](https://arxiv.org/abs/2512.14817). Integrated into CYTools.
 - **[pfvs](https://github.com/natemacfadden/pfvs)** *(paper in preparation)* — C/Cython algorithm (with some Python prep) for generating (coni-)PFVs orders of magnitude faster than previous methods, with significantly better scaling.
 - **[FastAerosol](https://geant4.web.cern.ch/docs/advanced_examples_doc/example_fastaerosol)** — C++ 'advanced example' contributed to GEANT4 for stochastic simulation of particle transport through aerosol geometries via voxelized droplet generation, with attention to time and memory efficiency. Associated with [this paper](https://www.sciencedirect.com/science/article/pii/S0010465522001023).
+
+## Selected papers
+
+- **Sampling Triangulations and Calabi-Yau Threefolds with Autoregressive GNNs** (2026) - Nate MacFadden. [arXiv:2605.27770](https://arxiv.org/abs/2605.27770). [[code]](https://github.com/natemacfadden/dualGNN)
+- **The DNA of Calabi-Yau Hypersurfaces: A Genetic Algorithm for Polytope Triangulations** (2025) - Nate MacFadden, Andreas Schachner, Elijah Sheridan. *Fortschritte der Physik* 73 (2025). [doi:10.1002/prop.70060](https://doi.org/10.1002/prop.70060), [arXiv:2405.08871](https://arxiv.org/abs/2405.08871)
+- **Further Bounding the Kreuzer-Skarke Landscape** (2026) - Nate MacFadden, Stepan Yu. Orevkov, Michael Stepniczka. [arXiv:2602.16909](https://arxiv.org/abs/2602.16909)
 
 ## For fun
 
