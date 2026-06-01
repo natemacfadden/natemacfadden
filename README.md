@@ -47,6 +47,7 @@ Lead developer and maintainer (BDFL) of [CYTools](https://github.com/LiamMcAllis
 - **Further Bounding the Kreuzer-Skarke Landscape** (2026) - Nate MacFadden, Stepan Yu. Orevkov, Michael Stepniczka. [arXiv:2602.16909](https://arxiv.org/abs/2602.16909)
 
 ## For fun
-
+<!--
 - **[Befunge X OEIS](https://github.com/natemacfadden/befunge)** *(in progress)* - training a transformer model to generate, on demand, a Befunge program (2D esoteric language on a torus) that emits a given OEIS sequence.
+-->
 - **[ntt (Nate's Triangulation Toys)](https://github.com/natemacfadden/ntt)** - recreational projects, like a cute game for visualizing flips of vector configurations and the [vex triangulations](https://arxiv.org/abs/2512.14817) that these flips lead to.
