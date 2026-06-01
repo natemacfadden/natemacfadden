@@ -12,7 +12,9 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 ## Machine Learning
 
 - **[dualGNN](https://github.com/natemacfadden/dualGNN)** — Autoregressive GNN for combinatorial sampling (of triangulations) under local (validity, fineness) and global (regularity) constraints out of a large population. Signed-circuit edge features (from oriented matroid theory) are provably necessary-and-sufficient for the constraint and yield symmetry invariance. Pointer-Network-style decoding, trained with cross-entropy then REINFORCE-tuned for uniformity. Has ~92k parameters (~1000x smaller than CYTransformer) and trains in ~7.5h on a single RTX 5060 Ti. Lowest sample bias of any method tested; zero-shot transfer across unseen problem instances. Applied to Calabi-Yau enumeration up to $h^{1,1}=128$.
+<!--
 - **[pfvscorer](https://github.com/natemacfadden/pfvscorer)** - Learned predictor of the number of solutions certain classes of Diophantine problems have (i.e., 'PFVs' in string theory). Generating the solutions (my `pfvs` kernel) is fast but eventually hits a fundamental wall; `pfvscorer` instead *predicts* the solution count directly, facilitating searches for solutions with desired properties. Three encoders tailored to the symmetries of the geometry's defining inputs feed a trunk that regresses the count.
+-->
 
 ## Optimization
 
