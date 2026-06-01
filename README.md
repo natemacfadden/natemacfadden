@@ -18,7 +18,7 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 
 ## Optimization
 
-- **[fanroots](https://github.com/LiamMcAllisterGroup/fanroots)** — Library for optimization over a certain class of piecewise-smooth landscapes with combinatorial transitions: the secondary fan of point/vector configurations. The particular task was in finding roots of vector-valued functions, as in [Candidate de Sitter Vacua](https://arxiv.org/abs/2406.13751).
+- **[fanroots](https://github.com/LiamMcAllisterGroup/fanroots)** — Library for optimization over a certain class of non-negligible dimensional $\sim200D$ functions that are smooth but whose analytic form changes discretely, piecewise constant within convex regions (cones). Specifically, these are functions of K\"ahler moduli space in string theory, finding special points to be certain desired physics into, like as in here [Candidate de Sitter Vacua](https://arxiv.org/abs/2406.13751).
 - **[The DNA of Calabi-Yau Hypersurfaces](https://doi.org/10.1002/prop.70060)** *(Fortschritte der Physik, 2025)* — Custom genetic algorithm with hyperparameters tuned by Bayesian optimization; combinatorial optimization over Calabi-Yau search spaces up to ~$10^{36}$ candidates, substantially outperforming MCMC, simulated annealing, and best-first search on both maximization and inverse problems. Built on [the NTFE encoding](https://arxiv.org/abs/2309.10855), which eliminates the search space's exponential redundancy.
 
 ## Systems/Kernels
