@@ -24,7 +24,7 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 ## Systems/Kernels
 
 - **[pfvs](https://github.com/natemacfadden/pfvs)** *(paper in preparation)* — C/Cython algorithm (with some Python prep) for generating (coni-)PFVs orders of magnitude faster than previous methods, with significantly better scaling.
-- **[latticepts](https://github.com/natemacfadden/latticepts)** — High-performance C/Cython implementation of Kannan's lattice point enumeration algorithm, substantially faster than Normaliz and OR-Tools CP-SAT in some cases. For an example of the performance: `latticepts` generates ~107M lattice points in a polyhedron of interest (the strict interior of certain 7D cone used in [Candidate de Sitter Vacua](https://arxiv.org/abs/2406.13751)) in only ~23s on my laptop.
+- **[latticepts](https://github.com/natemacfadden/latticepts)** — High-performance C/Cython implementation of Kannan's lattice point enumeration algorithm, substantially faster than Normaliz and OR-Tools CP-SAT in some cases. For an example of the performance: `latticepts` generates ~107M lattice points in a polyhedron of interest (the strict interior of certain 7D cone used in [Candidate de Sitter Vacua](https://arxiv.org/abs/2406.13751)) in only ~23s on my laptop. Integrated into CYTools.
 
 ## Other Software
 
