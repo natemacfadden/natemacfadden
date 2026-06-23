@@ -7,7 +7,7 @@ String-theory Ph.D. candidate at Cornell (Liam McAllister group). I build ML and
 
 Particularly interested in: efficient, symmetry-aware architectures for problems in physics, geometry, and combinatorics. **Looking for research scientist / research engineer / fellow roles in industry (AI/ML), especially at the physics x AI intersection.**
 
-**Stack:** C, C++, Cython, Python (PyTorch, NumPy, Numba)
+**Stack:** C (OpenMP), C++, Cython, Python (PyTorch, NumPy, Numba)
 
 ## Machine Learning
 
