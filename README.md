@@ -21,10 +21,11 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 - **[fanroots](https://github.com/LiamMcAllisterGroup/fanroots)** - Library for optimization over $\sim200$-dimensional piecewise-smooth functions whose analytic form changes across cone boundaries. Specifically, these are functions of Kähler moduli space in string theory, finding special points to build certain desired physics into, as in [Candidate de Sitter Vacua](https://arxiv.org/abs/2406.13751).
 - **[The DNA of Calabi-Yau Hypersurfaces](https://doi.org/10.1002/prop.70060)** *(Fortschritte der Physik, 2025; [code](https://github.com/sheride/cyopt))* - Custom genetic algorithm with hyperparameters tuned by Bayesian optimization; combinatorial optimization over Calabi-Yau search spaces up to ~$10^{36}$ candidates, substantially outperforming MCMC, simulated annealing, and best-first search on both maximization and inverse problems. Built on [the NTFE encoding](https://arxiv.org/abs/2309.10855), which eliminates the search space's exponential redundancy.
 
-## Systems/Kernels
+## Systems/Kernels/HPC
 
 - **[pfvs](https://github.com/natemacfadden/pfvs)** *(paper in preparation)* - C/Cython algorithm (with some Python prep) for generating (coni-)PFVs orders of magnitude faster than previous methods, with significantly better scaling.
 - **[latticepts](https://github.com/natemacfadden/latticepts)** - High-performance C/Cython implementation of Kannan's lattice point enumeration algorithm, substantially faster than Normaliz and OR-Tools CP-SAT in some cases. For an example of the performance: `latticepts` generates ~108M lattice points in a polyhedron of interest (the strict interior of certain 7D cone used in [Candidate de Sitter Vacua](https://arxiv.org/abs/2406.13751)) in ~15s single-threaded, or ~7.7s on 12 cores (~7M points/s, ~14M/s in parallel, materializing the full point set; counting only is lighter and faster). Integrated into CYTools.
+- **[unitri](https://github.com/natemacfadden/unitri)** - Library for efficiently counting the number of unimodular (i.e., fine) triangulations of arbtrary-shape lattice polygons. Follows [Counting lattice triangulations: Fredholm equations in combinatorics](https://arxiv.org/abs/2201.12827) (related to [Counting Lattice Triangulations](https://arxiv.org/abs/math/0211268). Can, e.g., count up to $736,983,568$ unimodular triangulations in $\sim1$ms.
 
 ## Other Software
 
