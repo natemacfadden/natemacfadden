@@ -12,9 +12,7 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 ## Machine Learning
 
 - **[dualGNN](https://github.com/natemacfadden/dualGNN)** - Autoregressive GNN for combinatorial sampling (triangulations) under local (validity, fineness) and global (regularity) constraints out of a large population. We use signed-circuit edge features from oriented matroid theory which we show are provably necessary (sign-only features fail) and empirically sufficient for determining regularity, and invariant under the problem's symmetries. Pointer-Network-style decoding, trained with cross-entropy then REINFORCE-tuned for uniformity. Has ~92k parameters (~1300x smaller than CYTransformer) and trains in ~7.5h on a single RTX 5060 Ti. It is the only sampler we tested consistent with uniform sampling across all diagnostics (divergence from uniformity, collision counts, sample autocorrelation); transfers zero-shot to unseen instances. Applied to Calabi-Yau enumeration up to $h^{1,1}=128$.
-<!--
-- **[pfvscorer](https://github.com/natemacfadden/pfvscorer)** - Learned predictor of the number of solutions certain classes of Diophantine problems have (i.e., 'PFVs' in string theory). Generating the solutions (my `pfvs` kernel) is fast but eventually hits a fundamental wall; `pfvscorer` instead *predicts* the solution count directly, facilitating searches for solutions with desired properties. Three encoders tailored to the symmetries of the geometry's defining inputs feed a trunk that regresses the count.
--->
+- **[pfvscorer](https://github.com/natemacfadden/pfvscorer)** - Learned richness classifier for certain classes of Diophantine problems (i.e., 'PFVs' in string theory). Enumerating the solutions (my pfvs kernel) is fast but eventually hits a fundamental wall; pfvscorer instead predicts how many solutions a class is likely to have, before enumeration, so searches can be steered toward rich classes. Three encoders, each tailored to the symmetry of one geometric input, feed a shared trunk with sigmoid heads that predict P(#solutions > threshold) (e.g. >0 and >50).
 
 ## Optimization
 
@@ -38,8 +36,6 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 Lead developer and maintainer (BDFL) of [CYTools](https://github.com/LiamMcAllisterGroup/cytools), the standard toolkit for studying Batyrevian CY compactifications in string theory. Invited to present this software at multiple conferences. Major contributions include:
   1. a generalization to vex triangulations via `regfans`, and
   2. a significantly faster intersection number kernel.
-
-*In progress:* an agent harness for CYTools with specialized tool definitions to enable agents (even weaker open-source ones) to carry out nontrivial computations.
 
 ## Selected papers
 
