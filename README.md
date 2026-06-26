@@ -17,7 +17,7 @@ Particularly interested in: efficient, symmetry-aware architectures for problems
 
 ## Optimization
 
-- **[fanroots](https://github.com/LiamMcAllisterGroup/fanroots)** - Library for optimization over $\sim200$-dimensional piecewise-smooth functions whose analytic form changes across cone boundaries. Specifically designed for functions of `Kähler moduli space' in string theory, for which FanRoots is used to locate special points where desired physics can be engineered, as in [Candidate de Sitter Vacua](https://arxiv.org/abs/2406.13751). Achieves order-of-magnitude speedups over the prior methods used there.
+- **[fanroots](https://github.com/LiamMcAllisterGroup/fanroots)** - Library for optimization over $\sim200$-dimensional piecewise-smooth functions whose analytic form changes across cone boundaries. Specifically designed for functions of 'Kähler moduli space' in string theory, for which FanRoots is used to locate special points where desired physics can be engineered, as in [Candidate de Sitter Vacua](https://arxiv.org/abs/2406.13751). Achieves order-of-magnitude speedups over the prior methods used there.
 - **[The DNA of Calabi-Yau Hypersurfaces](https://doi.org/10.1002/prop.70060)** *(Fortschritte der Physik, 2025; [code](https://github.com/sheride/cyopt))* - Custom genetic algorithm with hyperparameters tuned by Bayesian optimization; combinatorial optimization over Calabi-Yau search spaces up to ~$10^{36}$ candidates, substantially outperforming MCMC, simulated annealing, and best-first search on both maximization and inverse problems. Built on [the NTFE encoding](https://arxiv.org/abs/2309.10855), which eliminates the search space's exponential redundancy.
 
 ## Systems/Kernels/HPC
