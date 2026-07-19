@@ -7,7 +7,7 @@ I build high-performance systems and algorithms for hard problems in geometry an
 
 A few things I've built: [dualGNN](https://github.com/natemacfadden/dualGNN), a symmetry-aware GNN that beats the prior SOTA (a ~120M-parameter transformer) on sampling uniformity and zero-shot generalization with **~1300x fewer parameters**; [latticepts](https://github.com/natemacfadden/latticepts), a lattice-point enumeration kernel that materializes **~17M points/s** in parallel and is integrated into both [CYTools](https://cy.tools/) and [Macaulay2](https://macaulay2.com/); and an [agent harness](https://github.com/natemacfadden/cytools-agent) that makes small, untrustworthy LLMs reliable in driving CYTools. These projects all grow out of my string-theory Ph.D. at Cornell (McAllister group), a steady source of hard geometry and combinatorics problems.
 
-**Looking for research engineer / research scientist roles at AI labs.**
+**Looking for research engineer / research scientist roles at AI labs.** [Email](mailto:natemacfadden@gmail.com)
 
 **Stack:** Python (PyTorch, NumPy, Numba), Cython, C (OpenMP), C++
 
