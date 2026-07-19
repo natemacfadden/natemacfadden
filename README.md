@@ -1,7 +1,7 @@
 # Nate MacFadden
 
 <img src="bonsai.jpg" align="right" width="160"/>
-<p align="right"><sub>See my first bonsai 'Paco'<br/>(named after one of my favorite<br/>mathematicians). I've grown quite<br/>fond of these trees - I now have<br/>4-5, including a Japanese maple,<br/>redwood, and spruce.</sub></p>
+<p align="right"><sub>See my first bonsai 'Paco'<br/>(named after one of my favorite<br/>mathematicians). I've grown quite<br/>fond of these trees - I now have<br/>a small forest of them, including a Japanese maple,<br/>redwood, and spruce.</sub></p>
 
 I build high-performance systems and algorithms for hard problems in geometry and combinatorics (from multithreaded C/OpenMP kernels to symmetry-aware neural networks), leaving a trail of production-quality tools that others depend on. I lead development of and am the sole active maintainer of [CYTools](https://github.com/LiamMcAllisterGroup/cytools), the standard toolkit in my field (computational string-theory geometry).
 
