@@ -28,7 +28,7 @@ A few things I've built: [dualGNN](https://github.com/natemacfadden/dualGNN), a 
 
 ## LLM Agents & Reliability
 
-- **[cytools-agent](https://github.com/natemacfadden/cytools-agent)** - Makes small, untrustworthy open-weight models (e.g. `qwen3:8b`) reliably answer research-level questions with CYTools. The unique tools and terminology require careful RAG (SentenceTransformer and regex, the latter for niche terms) and carefully crafted tools. These tools are also exposed over over MCP.
+- **[cytools-agent](https://github.com/natemacfadden/cytools-agent)** - Makes small, untrustworthy open-weight models (e.g. `qwen3:8b`) reliably answer research-level questions with CYTools. The unique tools and terminology require careful RAG (SentenceTransformer and regex, the latter for niche terms) and carefully crafted tools. These tools are also exposed over MCP.
 - **[repo-review](https://github.com/natemacfadden/repo-review)** - LLM plugin/workflow that reviews a GitHub repo by spawning five lens-specialized sub-agents (performance, correctness, engineering, taste & positioning, documentation) that clone, build, run, test, and profile it. Exposed as a Claude Code plugin (invoke with `/repo-review:review <repo>`) and an opencode driver.
 
 ## CYTools
